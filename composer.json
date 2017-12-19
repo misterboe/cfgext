@@ -1,0 +1,15 @@
+{
+  "name": "cfgext/cfgext",
+  "description": "TYPO3 cfgext",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "require": {
+    "typo3/cms": "^8.7.7"
+  },
+  "authors": [
+    {
+      "name": "Boris Schauer",
+      "email": "me@bschauer.de"
+    }
+  ]
+}
