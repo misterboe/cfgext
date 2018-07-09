@@ -6,3 +6,9 @@ defined('TYPO3_MODE') or die();
     'Configuration/TypoScript',
     'Config'
 );
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::registerPageTSConfigFile(
+    'cfgext',
+    'Configuration/PageTS/pagetsconfig.typoscript',
+    'cfgext PageTSConfig'
+);
